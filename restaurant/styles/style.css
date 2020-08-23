@@ -1,0 +1,126 @@
+body{
+    background-color: black !important;
+}
+.navbar{
+    background-color: #4d4d4d !important;
+    width: 100% !important;
+}
+
+.nav-link{
+    color: #FFD700 !important;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    background-color: #FFD700 !important;
+    color: black !important;
+    border-radius: 40%;
+}
+
+.navbar-toggler{
+    background-color: #FFD700 !important;
+}
+
+
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 30px !important;
+}
+
+.fa-motorcycle,.fa-clock-o,.fa-thumbs-o-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+
+.mainCard{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 400px;
+
+    background-color: #4d4d4d;
+    color:#FFD700  ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+
+.newArrivals{
+    margin-top: 30px;
+    
+}
+
+.card{
+    width: 300px !important;
+    background-color: #4d4d4d !important;
+    margin-bottom: 10px;
+}
+
+.card-text,.card-title{
+    font-weight: bold !important;
+    color: #FFD700 !important;
+}
+.gold{
+    background-color: #FFD700 !important;
+    color: black !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+.heading{
+    text-align: center;
+    color:#FFD700 ;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+.col{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.footer{
+    width: 100%;
+    background-color:#4d4d4d !important ;
+    margin-top: 20px;
+}
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4d4d4d !important ;
+    text-align: center;
+ } */
+
+.footer > div{
+    color:#FFD700  ;
+}
+
+.card-img-top{
+    transition: all 1s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+
+.center{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+
+
